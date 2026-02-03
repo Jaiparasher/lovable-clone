@@ -22,3 +22,6 @@ spring:
 
   jackson:
     time-zone: Asia/Kolkata
+
+jwt:
+  secret-key: asdfa9023nrkoasdva0asdfs94r523asdf2341238azaf234sdfg45
