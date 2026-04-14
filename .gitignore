@@ -60,8 +60,8 @@ Thumbs.db
 ############################
 
 # Ignore sensitive YAML configs (keep example instead)
-application.yml
-application-*.yml
+application.yaml
+application-*.yaml
 
 # Allow template/example config
 !application-example.yml
