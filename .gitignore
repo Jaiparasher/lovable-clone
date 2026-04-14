@@ -63,6 +63,8 @@ Thumbs.db
 application.yaml
 application-*.yaml
 
+src\main\resources\application.yaml
+
 # Allow template/example config
 !application-example.yml
 
