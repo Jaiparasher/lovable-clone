@@ -1,33 +1,88 @@
-HELP.md
+############################
+# Compiled class files
+############################
+*.class
+
+############################
+# Logs
+############################
+*.log
+logs/
+log/
+
+############################
+# Build folders
+############################
 target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+build/
+out/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+############################
+# Maven
+############################
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
 
-### IntelliJ IDEA ###
-.idea
+############################
+# Gradle
+############################
+.gradle/
+gradlew
+gradlew.bat
+!gradle/wrapper/gradle-wrapper.jar
+
+############################
+# IDEs
+############################
+
+# IntelliJ IDEA
+.idea/
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Eclipse
+.project
+.classpath
+.settings/
 
-### VS Code ###
+# VS Code
 .vscode/
+
+############################
+# OS Files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Spring Boot / Application Files
+############################
+
+# Ignore sensitive YAML configs (keep example instead)
+application.yml
+application-*.yml
+
+# Allow template/example config
+!application-example.yml
+
+############################
+# Environment files
+############################
+.env
+
+############################
+# Test output
+############################
+test-output/
+
+############################
+# Temporary files
+############################
+*.tmp
+*.swp
+
+############################
+# Coverage reports
+############################
+coverage/
